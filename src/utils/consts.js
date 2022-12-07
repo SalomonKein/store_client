@@ -1,3 +1,12 @@
+import conditioner from '../assets/conditioner.jpg';
+import laptop from '../assets/laptop.jpg';
+import phone from '../assets/phone.jpg';
+import refregirator from '../assets/refregirator.jpg';
+
+
+
+
+
 export const ADMIN_ROUTE = '/admin'
 export const LOGIN_ROUTE = '/login'
 export const REGISTRATION_ROUTE = '/registration'
@@ -16,3 +25,8 @@ export const SET_BRAND = 'SHOP/SET_BRAND'
 export const SET_DEVICE = 'SHOP/SET_DEVICE'
 export const SET_TOTALCOUNT = 'SHOP/SET_TOTALCOUNT'
 export const SET_PAGE = 'SHOP/SET_PAGE'
+
+
+
+export const imgArray = [{img:conditioner, id:3}, {img:laptop, id:5}, {img:laptop, id:4},  {img:phone, id:2} ,{img:refregirator, id:1} ]
+console.log(imgArray, 'imgArray')
