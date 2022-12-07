@@ -51,7 +51,7 @@ export function setDevices(devices) {
     return {
         type: SET_DEVICE,
         data: {
-            devices
+            devices,
         }
     }
 }

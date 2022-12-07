@@ -4,7 +4,7 @@ import { SET_AUTH_DATA_USER } from '../../utils/consts';
 const initialState = {
     email: null,
     userId: null,
-    isAuth: false,
+    isAuth: true,
     password: null,
 }
 
